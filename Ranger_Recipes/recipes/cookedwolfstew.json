@@ -1,0 +1,35 @@
+{
+  "RecipeName": "GAMEPLAY_CookedWolfStew",
+  "RecipeDescription": "GAMEPLAY_CookedWolfStewDescription",
+  "RecipeIcon": "",
+  "RequiredSkillLevel": 1,
+  "AllowedCookingPots": [
+    "GEAR_CookingPot"
+  ],
+  "BlueprintData": {
+    "Name": "REC_WolfStew",
+    "RequiredGear": [
+      {
+        "Item": "GEAR_RawMeatWolf",
+        "Quantity": 0.5,
+        "Units": "Kilograms"
+      }
+    ],
+    "RequiredPowder": [
+      {
+        "Powder": "POWDER_Flour",
+        "QuantityInKilograms": 0.05
+      }
+    ],
+    "RequiredLiquid": [
+      {
+        "Liquid": "LIQUID_Broth",
+        "VolumeInLitres": 0.4
+      }
+    ],
+    "CraftedResult": "GEAR_UncookedWolfStew",
+    "CraftedResultCount": 1,
+    "DurationMinutes": 20,
+    "CraftingAudio": "Play_CraftingStewMeat"
+  }
+}

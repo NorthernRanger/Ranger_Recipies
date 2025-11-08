@@ -1,0 +1,9 @@
+{
+    "Name": "Ranger_Recipes",
+    "Author": "Northern Ranger",
+    "Version": "0.0.2",
+    "Requires": [
+        "Crafting Revisions"
+    ],
+    "RequiresDLC": false
+}

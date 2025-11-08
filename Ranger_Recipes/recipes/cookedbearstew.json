@@ -1,0 +1,35 @@
+{
+  "RecipeName": "GAMEPLAY_CookedBearStew",
+  "RecipeDescription": "GAMEPLAY_CookedBearStewDescription",
+  "RecipeIcon": "",
+  "RequiredSkillLevel": 1,
+  "AllowedCookingPots": [
+    "GEAR_CookingPot"
+  ],
+  "BlueprintData": {
+    "Name": "REC_BearStew",
+    "RequiredGear": [
+      {
+        "Item": "GEAR_RawMeatBear",
+        "Quantity": 0.5,
+        "Units": "Kilograms"
+      }
+    ],
+    "RequiredPowder": [
+      {
+        "Powder": "POWDER_Flour",
+        "QuantityInKilograms": 0.05
+      }
+    ],
+    "RequiredLiquid": [
+      {
+        "Liquid": "LIQUID_Broth",
+        "VolumeInLitres": 0.4
+      }
+    ],
+    "CraftedResult": "GEAR_UncookedBearStew",
+    "CraftedResultCount": 1,
+    "DurationMinutes": 20,
+    "CraftingAudio": "Play_CraftingStewMeat"
+  }
+}
