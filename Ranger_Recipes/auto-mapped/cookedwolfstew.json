@@ -64,7 +64,7 @@
     "OpeningWithSmashing": false,
     "AffectCondition": true,
     "ConditionRestBonus": 2.0,
-    "ConditionRestMinutes": 120.0,
+    "ConditionRestMinutes": 60.0,
     "AffectRest": false,
     "InstantRestChange": 0.0,
     "RestFactorMinutes": 0,
