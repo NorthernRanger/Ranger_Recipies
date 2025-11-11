@@ -3,7 +3,7 @@
     "DisplayNameLocalizationId": "GAMEPLAY_UncookedWolfStew",
     "DescriptionLocalizatonId": "GAMEPLAY_UncookedWolfStewDescription",
     "InventoryActionLocalizationId": "",
-    "WeightKG": 0.4,
+    "WeightKG": 0.7,
     "DaysToDecay": 3,
     "MaxHP": 100.0,
     "InitialCondition": "Perfect",
@@ -13,7 +13,7 @@
     "StowAudio": "Play_InventoryStow",
     "WornOutAudio": "",
     "InspectOnPickup": true,
-    "InspectDistance": 1.0,
+    "InspectDistance": 0.5,
     "InspectAngles": [
       0.0,
       0.0,
@@ -21,7 +21,7 @@
     ],
     "InspectOffset": [
       0.0,
-      0.0,
+      -0.075,
       0.0
     ],
     "InspectScale": [

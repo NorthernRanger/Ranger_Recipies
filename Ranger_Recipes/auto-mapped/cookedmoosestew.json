@@ -1,7 +1,7 @@
 {
   "ModFoodComponent": {
-    "DisplayNameLocalizationId": "GAMEPLAY_CookedBearStew",
-    "DescriptionLocalizatonId": "GAMEPLAY_CookedBearStewDescription",
+    "DisplayNameLocalizationId": "GAMEPLAY_CookedMooseStew",
+    "DescriptionLocalizatonId": "GAMEPLAY_CookedMooseStewDescription",
     "InventoryActionLocalizationId": "",
     "WeightKG": 0.35,
     "DaysToDecay": 0,
@@ -37,12 +37,12 @@
     "CookingWaterRequired": 0.0,
     "CookingResult": "",
     "BurntMinutes": 20,
-    "Type": "Grub",
+    "Type": "Liquid",
     "CookingAudio": "Play_CookStew",
     "StartCookingAudio": "Play_cookingPlacementStew",
     "DaysToDecayOutdoors": 5,
     "DaysToDecayIndoors": 20,
-    "Calories": 920,
+    "Calories": 940,
     "Servings": 1,
     "EatingTime": 5,
     "EatingAudio": "Play_EatingStew",
@@ -74,6 +74,6 @@
     "ContainsAlcohol": false,
     "AlcoholPercentage": 0.0,
     "AlcoholUptakeMinutes": 0.0,
-    "VitaminC": 30
+    "VitaminC": 40
   }
 }

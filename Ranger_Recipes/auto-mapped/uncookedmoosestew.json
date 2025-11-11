@@ -1,10 +1,10 @@
 {
   "ModCookableComponent": {
-    "DisplayNameLocalizationId": "GAMEPLAY_UncookedBearStew",
-    "DescriptionLocalizatonId": "GAMEPLAY_UncookedBearStewDescription",
+    "DisplayNameLocalizationId": "GAMEPLAY_UncookedMooseStew",
+    "DescriptionLocalizatonId": "GAMEPLAY_UncookedMooseStewDescription",
     "InventoryActionLocalizationId": "",
     "WeightKG": 0.7,
-    "DaysToDecay": 3,
+    "DaysToDecay": 0,
     "MaxHP": 100.0,
     "InitialCondition": "Perfect",
     "InventoryCategory": "Auto",
@@ -35,8 +35,8 @@
     "CookingMinutes": 120,
     "CookingUnitsRequired": 1,
     "CookingWaterRequired": 0.0,
-    "CookingResult": "GEAR_CookedBearStew",
-    "BurntMinutes": 40,
+    "CookingResult": "GEAR_CookedMooseStew",
+    "BurntMinutes": 0,
     "Type": "Liquid",
     "CookingAudio": "Play_CookStew",
     "StartCookingAudio": "Play_cookingPlacementStew"
