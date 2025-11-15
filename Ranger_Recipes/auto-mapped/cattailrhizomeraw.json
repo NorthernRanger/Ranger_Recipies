@@ -1,0 +1,44 @@
+{
+  "ModCookableComponent": {
+    "DisplayNameLocalizationId": "GAMEPLAY_CattailRhizomeRaw",
+    "DescriptionLocalizatonId": "GAMEPLAY_CattailRhizomeRawDescription",
+    "InventoryActionLocalizationId": "",
+    "WeightKG": 0.2,
+    "DaysToDecay": 100,
+    "MaxHP": 100.0,
+    "InitialCondition": "Perfect",
+    "InventoryCategory": "Auto",
+    "PickUpAudio": "Play_SndInvPlantBurdockPickup",
+    "PutBackAudio": "Play_SndInvPlantBurdockPutBack",
+    "StowAudio": "Play_InventoryStow",
+    "WornOutAudio": "",
+    "InspectOnPickup": true,
+    "InspectDistance": 1.0,
+    "InspectAngles": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "InspectOffset": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "InspectScale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "NormalModel": "",
+    "InspectModel": "",
+    "Cooking": true,
+    "CookingMinutes": 30,
+    "CookingUnitsRequired": 1,
+    "CookingWaterRequired": 1.0,
+    "CookingResult": "GEAR_CattailRhizomeCooked",
+    "BurntMinutes": 40,
+    "Type": "Grub",
+    "CookingAudio": "Play_BoilingLight",
+    "StartCookingAudio": "Play_PutInPotWaterBurdockPrepared"
+  }
+}

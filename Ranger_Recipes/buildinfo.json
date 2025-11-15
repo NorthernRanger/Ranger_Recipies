@@ -1,11 +1,7 @@
 {
     "Name": "Ranger_Recipes",
     "Author": "Northern Ranger",
-    "Version": "0.0.4",
-    "Requires": [
-        "Crafting Revisions",
-        "ModSettings",
-        "ModComponent"
-    ],
+    "Version": "0.1.1",
+    "Requires": [],
     "RequiresDLC": false
 }
