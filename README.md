@@ -3,10 +3,10 @@ A simple mod for The Long Dark that adds some new cooking recipes.
 I always felt that the cooking recipe system was heavily underused with so much potential.
 This is my attempt to bridge this gap.
 
-Current features include (relatively untested and checked for balance):  
+Current features include:  
 
 A collection of stews + their respective cooking recipes: Bear, Moose and Wolf.  
-Cattail Rhizome: The root of a Cat Tail, edible when cooked.
+Cattail Rhizome: The root of a Cattail, edible when cooked.
 
 
 Planned features for now:
