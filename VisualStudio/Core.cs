@@ -2,7 +2,7 @@
 using HarmonyLib;
 using Il2Cpp;
 
-[assembly: MelonInfo(typeof(Ranger_Recipes.Core), "Ranger_Recipes", "0.1.1", "Northern Ranger", "https://github.com/NorthernRanger/Ranger_Recipes/releases/download/0.1.0/Ranger_Recipes.modcomponent")]
+[assembly: MelonInfo(typeof(Ranger_Recipes.Core), "Ranger_Recipes", "0.1.2", "Northern Ranger", "https://github.com/NorthernRanger/Ranger_Recipes/releases/download/0.1.0/Ranger_Recipes.modcomponent")]
 [assembly: MelonGame("Hinterland", "TheLongDark")]
 
 namespace Ranger_Recipes
@@ -22,7 +22,7 @@ namespace Ranger_Recipes
         {
             private static void Postfix(ref Harvestable __instance)
             {
-                MelonLogger.Warning("Plant harvested");
+                //MelonLogger.Warning("Plant harvested");
 
                 string HarvestedPlantName = __instance.m_GearPrefab.DisplayName;
                 GearItem Rhizome = GearItem.LoadGearItemPrefab("GEAR_CattailRhizomeRaw");
@@ -30,7 +30,7 @@ namespace Ranger_Recipes
                 if(HarvestedPlantName == "Cat Tail Stalk")
                 {
                     GameManager.GetPlayerManagerComponent().AddItemToPlayerInventory(Rhizome, true, true);
-                    MelonLogger.Warning("Added Cattail Rhizome to inventory.");
+                    //MelonLogger.Warning("Added Cattail Rhizome to inventory.");
                 }
             }
         }
