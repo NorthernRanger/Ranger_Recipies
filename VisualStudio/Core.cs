@@ -22,15 +22,12 @@ namespace Ranger_Recipes
         {
             private static void Postfix(ref Harvestable __instance)
             {
-                //MelonLogger.Warning("Plant harvested");
-
-                string HarvestedPlantName = __instance.m_GearPrefab.DisplayName;
+                string HarvestedPlantName = __instance.m_GearPrefab.DisplayName; //Gets the display name of the item harvested
                 GearItem Rhizome = GearItem.LoadGearItemPrefab("GEAR_CattailRhizomeRaw");
 
                 if(HarvestedPlantName == "Cat Tail Stalk")
                 {
-                    GameManager.GetPlayerManagerComponent().AddItemToPlayerInventory(Rhizome, true, true);
-                    //MelonLogger.Warning("Added Cattail Rhizome to inventory.");
+                    GameManager.GetPlayerManagerComponent().AddItemToPlayerInventory(Rhizome, true, true); //Adds the rhizome item to the players inventory
                 }
             }
         }
